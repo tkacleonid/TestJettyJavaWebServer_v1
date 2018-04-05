@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demo Servlet</title>
+</head>
+<body>
+    <form action="/page.html" method="POST">
+        Login: <input type="text" name="message">
+        <input type="submit" value="OK">
+    </form>
+
+    <p> Message: ${message}</p>
+    <p> Method: ${method}</p>
+    <p> url: ${url}</p>
+    <p> Path: ${path}</p>
+    <p> SessionId: ${sessionId}</p>
+    <p> Parameters: ${parameters}</p>
+
+
+</body>
+</html>
