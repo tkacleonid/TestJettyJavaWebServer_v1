@@ -11,7 +11,9 @@ public class Main {
 
         DemoServlet frontend = new DemoServlet();
 
+
         Server server = new Server(8080);
+        server.start();
 
         ServletContextHandler context = new ServletContextHandler(ServletContextHandler.SESSIONS);
         server.setHandler(context);
